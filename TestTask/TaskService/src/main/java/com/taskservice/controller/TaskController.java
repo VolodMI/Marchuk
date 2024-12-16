@@ -15,7 +15,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/tasks")
+@RequestMapping("/tasks")
 public class TaskController {
 
     private final TaskRepository taskRepository;
